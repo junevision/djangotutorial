@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+.env/
+.env.*
+
+# --- Django ---
+db.sqlite3
+*.sqlite3
+*.log
+local_settings.py
+
+# User-uploaded files (commonly not versioned)
+media/
+
+# Collected static files (keep your source `static/` if you have one)
+staticfiles/
+
+# --- Packaging / build ---
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+
+# --- Type checking / tooling ---
+.mypy_cache/
+.ruff_cache/
+.pyright/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- IDEs / editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+._*
